@@ -197,6 +197,10 @@ function printLogHandler () {
     for (let i = 9; i > 0; i--) {
         console.log(i)
     }
+
+    for (let i = 0; i < battleLog.length; i++) {
+        console.log(battleLog[i])
+    }
 }
 
 attackBtn.addEventListener('click', attackHandler)
