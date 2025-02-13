@@ -186,20 +186,24 @@ function healPlayerHandler () {
 
 function printLogHandler () {
     // console.log(battleLog)
-    for (let i = 0; i < 3; i++) {
-        console.log(i)
-    }
+    // for (let i = 0; i < 3; i++) {
+    //     console.log(i)
+    // }
 
-    for(let miky = 0 ; miky < 8; miky++ ) {
-        console.log(miky)
-    }
+    // for(let miky = 0 ; miky < 8; miky++ ) {
+    //     console.log(miky)
+    // }
 
-    for (let i = 9; i > 0; i--) {
-        console.log(i)
-    }
+    // for (let i = 9; i > 0; i--) {
+    //     console.log(i)
+    // }
 
-    for (let i = 0; i < battleLog.length; i++) {
-        console.log(battleLog[i])
+    // for (let i = 0; i < battleLog.length; i++) {
+    //     console.log(battleLog[i])
+    // }
+
+    for (const logEntry of battleLog) {
+        console.log(logEntry)
     }
 }
 
